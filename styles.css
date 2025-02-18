@@ -267,6 +267,12 @@ section {
 
 .about-containers, .about-details-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.details-container {
+    max-width: 400px;
 }
 
 .about-pic {
@@ -349,11 +355,15 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
+    width: 85%;
     height: auto;
     max-height: 400px;
     max-width: 300px;
 }
+
+
+
+
 
 .project-title {
     margin: 1rem;
