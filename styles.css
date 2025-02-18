@@ -269,6 +269,11 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: smaller;
+}
+
+.about-containers {
+    font-size: larger;
 }
 
 .details-container {
