@@ -164,6 +164,8 @@ section {
 
 .section__pic-container {
     display: flex;
+    justify-content: center;
+    
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -208,6 +210,7 @@ section {
 
 .btn-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 1rem;
 
@@ -248,6 +251,7 @@ section {
 
 .btn-container {
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 #about {
@@ -258,22 +262,35 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    align-items: stretch;
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    margin: 3rem;
+}
+
+.details-container1 {
+    display: flex;
 }
 
 .about-containers, .about-details-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    font-size: smaller;
+
 }
 
 .about-containers {
     font-size: larger;
+}
+
+.about-containers1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin-top: 2rem;
+    
 }
 
 .details-container {
@@ -362,8 +379,9 @@ article .icon {
     border-radius: 2rem;
     width: 85%;
     height: auto;
-    max-height: 400px;
+    max-height: 350px;
     max-width: 300px;
+    object-fit: cover;
 }
 
 
@@ -434,5 +452,23 @@ footer p {
 
 .btn-cv {
     color: black;
+}
+
+.btn-container {
+    margin-bottom: 0;
+}
+
+.image {
+    display: flex;
+    height: 2.5rem;
+}
+
+.me {
+    border-radius: 10%;
+}
+
+.icon1 {
+    height: auto;
+    width: 2rem;
 }
 
